@@ -57,8 +57,14 @@ The dataset used in this project is **US Used Cars Dataset (Craigslist, 425,000+
 - **Hyperparameter Tuning**  
   - RandomizedSearchCV on Tree-Based Regressors (RandomForest, GradientBoosting, XGB, LightGBM)
  
-## Results
-* Best-performing model:
-* Acheived R² ~ and RMSE ~
-* Important Features: 
+## Final Model Performance  
+- Model: RandomForestRegressor
+- Parameters: n_estimators=100,min_samples_split=2,max_features='log2',max_depth=20
+| Metric | Score |
+|--------|------------------|
+| R² Score | 0.7507 |
+| MSE | 42,764,756.72 |
+| RMSE | 6,539.48 |
+
+* Important Features: year, model, condition, cylinders, fuel ,odometer, title-status, transmission, drive, pain_color
        
