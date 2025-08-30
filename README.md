@@ -31,11 +31,11 @@ The dataset used in this project is **US Used Cars Dataset (Craigslist, 425,000+
    *  Handling missing values (imputation strategies)
    *  Outlier Detection using Boxplots and Handling using IQR Method
    *  Encoding categorical variables (Label Encoding)
-   *  Feature Scaling (StandardScalar)
+   *  Feature Scaling (StandardScalar)\
 **2. Exploratory Data Analysis (EDA)**
    * Price Distribution
-   * Fuel Type Distribution, etc.
-**3. Selecting Features based on p-values from Ordinary-Least-Squares Method**
+   * Fuel Type Distribution, etc.\
+**3. Selecting Features based on p-values from Ordinary-Least-Squares Method**\
 **4. Model Building & Evaluation**
      * Spliting Data into Train,Test datasets
      * Models Implemented
@@ -47,7 +47,7 @@ The dataset used in this project is **US Used Cars Dataset (Craigslist, 425,000+
        *  GradientBoosting
        *  XGBoost
        *  LightGBM
-     * Metrics Considered: **R² score**, **RMSE**
+     * Metrics Considered: **R² score**, **RMSE**\
   **5. Hyperparameter tuning using RandomizedSearchCV on Tree-Based Regressors (RandomForest, GradientBoosting, XGB, LightGBM**
 
 ## Results
