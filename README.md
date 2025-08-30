@@ -43,16 +43,19 @@ The dataset used in this project is **US Used Cars Dataset (Craigslist, 425,000+
 
 - **Model Building & Evaluation**  
   - Splitting Data into Train, Test datasets  
-  - Models Implemented:  
-    - Linear Regression  
-    - Ridge  
-    - Lasso  
-    - ElasticNet  
-    - Random Forest  
-    - Gradient Boosting  
-    - XGBoost  
-    - LightGBM  
-  - Metrics Considered: **R² score**, **RMSE**  
+  - Models Implemented:
+    - Linear Regression, Ridge, Lasso, ElasticNet, Random Forest, Gradient Boosting, XGBoost, LightGBM  
+  - Metrics Considered: **R² score**, **RMSE**
+    | Model | R² Score | MSE |
+|--------|------------------|-----------|
+|   XGBoost | 0.6248 | 6.43e+07 |
+|   LightGBM | 0.6174 | 6.56e+07 |
+|   RandomForest| 0.5549 | 7.63e+07 |
+|   GradientBoosting| 0.4994 | 8.58e+07 |
+|   ElasticNet| 0.3487 | 1.11e+08 |
+|   Lasso| 0.3486 | 1.11e+08 |
+|   Ridge| 0.3486 | 1.11e+08 |
+|   LinearRegression| 0.3486 | 1.11e+08|
 
 - **Hyperparameter Tuning**  
   - RandomizedSearchCV on Tree-Based Regressors (RandomForest, GradientBoosting, XGB, LightGBM)
