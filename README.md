@@ -3,7 +3,7 @@
 ## Project Overview
 This project predicts the resale price of used cars using machine learning techniques. The goal is to build a robust regression model that can assist buyers, sellers in estimating fair market prices.
 
-The dataset used in this project is [US Used Cars Dataset](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data/data) (Craigslist/eBay, 425,000+ rows), which contains detailed information about car listings such as year, brand, model, mileage, fuel type, transmission and condition.
+The dataset used in this project is **US Used Cars Dataset (Craigslist, 425,000+ rows)**, which contains detailed information about car listings such as year, brand, model, mileage, fuel type, transmission and condition.
 
 ## Objectives
 * Perform data cleaning & preprocessing on a large real-world dataset.
