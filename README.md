@@ -46,7 +46,7 @@ The dataset used in this project is **US Used Cars Dataset (Craigslist, 425,000+
   - Models Implemented:
     - Linear Regression, Ridge, Lasso, ElasticNet, Random Forest, Gradient Boosting, XGBoost, LightGBM  
   - Metrics Considered: **R² score**, **RMSE**
-    | Model | R² Score | MSE |
+| Model | R² Score | MSE |
 |--------|------------------|-----------|
 |   XGBoost | 0.6248 | 6.43e+07 |
 |   LightGBM | 0.6174 | 6.56e+07 |
