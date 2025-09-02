@@ -70,4 +70,8 @@ The dataset used in this project is **US Used Cars Dataset (Craigslist, 425,000+
 - Model: RandomForestRegressor
 - Parameters: n_estimators=100,min_samples_split=2,max_features='log2',max_depth=20
 - Important Features: year, model, condition, cylinders, fuel ,odometer, title-status, transmission, drive, pain_color
+
+--
+## Author  
+**Abhinay Kalavakuri**
        
